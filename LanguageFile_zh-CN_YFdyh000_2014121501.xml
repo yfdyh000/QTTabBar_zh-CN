@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>2014121202</Revision>
+<Revision>2014121501</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2014/12/12 0:49:52</DateModified>
+<DateModified>2014/12/15 7:41:42</DateModified>
 <EditorVersion>1.0.0.2</EditorVersion>
 
 <!--DATA START-->
@@ -222,12 +222,12 @@
 
 
 <DesktopTool>
-启用任务栏菜单
-启用桌面的菜单
+在任务栏上启用菜单
+在桌面上启用菜单
 锁定项目
 绘制标题背景
-在工具栏单击左键
-启用程序快捷键
+在工具栏上单击左键
+启用应用程序快捷键
 菜单透明度
 打开群组
 最近标签

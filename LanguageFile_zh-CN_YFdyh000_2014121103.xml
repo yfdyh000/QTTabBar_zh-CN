@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>2014121102</Revision>
+<Revision>2014121103</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2014/12/11 4:38:09</DateModified>
+<DateModified>2014/12/11 8:16:21</DateModified>
 <EditorVersion>1.0.0.2</EditorVersion>
 
 <!--DATA START-->
@@ -222,12 +222,12 @@
 
 
 <DesktopTool>
-启用任务栏菜单(&amp;T)
-启用桌面的菜单(&amp;D)
-锁定项目(&amp;L)
-绘制标题背景(&amp;B)
+启用任务栏菜单
+启用桌面的菜单
+锁定项目
+绘制标题背景
 在工具栏单击左键
-启用程序快捷键(&amp;A)
+启用程序快捷键
 菜单透明度
 打开群组
 最近标签
@@ -944,7 +944,7 @@ QTTabBar 命令
 下载语言文件...
 创建语言文件...
 更新
-找到更新时提示
+发现更新时提示
 忽略测试版本（Beta）
 立即下载更新...
 管理设置

@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>2014122401</Revision>
+<Revision>20150612</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2014/12/24 7:16:21</DateModified>
+<DateModified>2015/6/12 0:32:00</DateModified>
 <EditorVersion>1.0.0.3</EditorVersion>
 
 <!--DATA START-->
@@ -114,10 +114,13 @@
 
 
 <CommandBarDragDrop>
-在此创建按钮
-移动按钮到此
-复制按钮到此
-此对话框已锁定。
+在此处创建按钮
+移动按钮到此处
+复制按钮到此处
+此工具栏已锁定。
+移动此按钮并创建子项目
+复制此按钮并创建子项目
+等待下拉菜单
 </CommandBarDragDrop>
 
 
@@ -426,6 +429,9 @@ $$\t&quot;$&quot; 文本
 始终置顶
 打开文件夹...
 关闭
+预设
+批量更改扩展名 - abc -&gt; xyz
+批量更改扩展名 - ALL -&gt; xyz
 </DialogFileRenamer>
 
 
@@ -473,6 +479,7 @@ QTTabBar 群组文件
 <DropHelper>
 复制
 移动
+添加到应用程序启动器菜单
 </DropHelper>
 
 
@@ -802,7 +809,7 @@ Windows 8
 在标签上单击中键
 在标签上右击
 在工具栏上双击
-在工具栏上的中键单击
+在工具栏上中键单击
 在工具栏上右击
 在导航面板上单击
 在导航面板上中键单击
@@ -840,6 +847,8 @@ Windows 8
 左侧
 右侧
 当一个视图有焦点时，按 Tab 键切换焦点到其他视图
+所有标签已关闭时隐藏
+打开默认标签：
 </OptionExtraView>
 
 
@@ -1049,7 +1058,7 @@ QTTabBar - 其他
 &quot;{0}&quot;已分配到&quot;{1}&quot;。您想重新分配吗？
 确认重新分配
 穿透功能
-*标记的项目可以设置默认键 Shift + Esc 键穿透功能。
+有 * 标记的项目可以设置默认键 Shift + Esc 键穿透功能。
 QTTabBar - 文件夹视图
 QTTabBar - 额外视图和同步
 QTTabBar - 焦点
@@ -1259,6 +1268,7 @@ Alt键按下时
 导航失败时关闭标签
 常规
 关闭按钮/图标/锁定
+鼠标右键在视图上按下时允许用鼠标滚轮更改活动标签
 </OptionTab>
 
 
@@ -1331,6 +1341,7 @@ Shift 键按下时可被关闭。
 排除的文件夹路径
 捕获到哪个视图：
 捕捉及排除列表
+不从桌面捕获
 </OptionWindow>
 
 
@@ -1459,7 +1470,7 @@ QTTabBar 命令
 光标上移
 光标右移
 光标下移
-收缩工具栏
+收起工具栏
 展开工具栏
 显示或隐藏工具栏
 显示或隐藏标签栏

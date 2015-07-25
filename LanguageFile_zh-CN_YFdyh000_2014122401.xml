@@ -19,11 +19,11 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>2014121502</Revision>
+<Revision>2014122401</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2014/12/15 7:44:53</DateModified>
-<EditorVersion>1.0.0.2</EditorVersion>
+<DateModified>2014/12/24 7:16:21</DateModified>
+<EditorVersion>1.0.0.3</EditorVersion>
 
 <!--DATA START-->
 <ButtonBarButtons>
@@ -109,6 +109,7 @@
 停止预览图片
 停止预览电影和音乐。
 停止预览文本。
+拖动按钮到文件夹来添加其到子项。
 </ButtonBarTooltip>
 
 
@@ -729,6 +730,7 @@ Windows 8
 子文件夹菜单
 在额外中包含选中项目
 创建一个新命令...
+活动标签页变化
 </OptionEvent>
 
 
@@ -790,6 +792,7 @@ Windows 8
 删除文件夹
 永久删除文件夹
 开始重命名
+将点击传递到背景
 </OptionEventActions>
 
 
@@ -928,6 +931,8 @@ QTTabBar 命令
 活动
 不活动
 基础文本颜色
+水印
+文件夹种类
 </OptionFolderView>
 
 
@@ -1047,6 +1052,7 @@ QTTabBar - 其他
 *标记的项目可以设置默认键 Shift + Esc 键穿透功能。
 QTTabBar - 文件夹视图
 QTTabBar - 额外视图和同步
+QTTabBar - 焦点
 </OptionKeyShortcuts>
 
 
@@ -1505,6 +1511,12 @@ QTTabBar 命令
 将所选的文件从一个额外视图移动到其他视图（默认视图如果两个视图处于活动状态，从优先查看）和默认视图
 在其他视图中创建所选文件的链接，（从默认视图如果两种观点都是活跃的优先查看）和从一个额外视图的默认视图
 聚焦下一个视图
+聚焦具有焦点的视图的过滤器框
+移动活动标签到默认视图
+移动活动标签到额外视图（底部）
+移动活动标签到额外视图（左侧）
+移动活动标签到其他视图（从默认视图到优先视图，如果两个视图都活跃，从额外视图到默认视图）
+用聚焦视图同步其他全部视图的位置
 </ShortcutKeyName>
 
 
@@ -1690,6 +1702,7 @@ QTTabBar 命令
 外壳快捷菜单(&amp;S)
 导出(&amp;X)...
 添加插件按钮(&amp;P)...
+添加虚拟文件夹(&amp;V)
 </VersatileBarMenu>
 
 

@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20150713</Revision>
+<Revision>20150715</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/7/13 5:51:46</DateModified>
+<DateModified>2015/7/15 23:00:48</DateModified>
 <EditorVersion>1.0.0.3</EditorVersion>
 
 <!--DATA START-->
@@ -931,8 +931,8 @@ Unicode 控制字符的警告
 自定义视图颜色
 外壳上下文菜单
 QTTabBar 命令
-添加到文件夹/文件快捷菜单
-添加到文件夹背景快捷菜单
+添加到文件/文件夹的右键菜单
+添加到文件夹空白处的右键菜单
 文件夹动作
 这是必要的用于捕获窗口。
 添加命令，如“在新标签中打开”到文件夹中的快捷菜单

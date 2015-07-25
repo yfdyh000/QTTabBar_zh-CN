@@ -18,11 +18,11 @@
 <Version>129</Version>
 
 <!--META DATA-->
-<Author>WangKing http://wkismet.spaces.live.com</Author>
+<Author>YFdyh000</Author>
 <Revision>1</Revision>
 <Locale>zh-CN</Locale>
-<Contact></Contact>
-<DateModified>2013/11/19 11:46:27</DateModified>
+<Contact>yfdyh000@gmail.com</Contact>
+<DateModified>2013/11/23 10:05:31</DateModified>
 <EditorVersion>1.0.0.1</EditorVersion>
 
 <!--DATA START-->
@@ -33,11 +33,11 @@
 标签组
 最近关闭
 快速启动
-打开新窗口
+新建窗口
 克隆标签
 锁定标签
 复制工具
-总在最上
+总在最顶
 关闭标签
 关闭其他标签
 关闭窗口
@@ -46,29 +46,29 @@
 转到上级目录
 刷新
 搜索
-窗口透明
-搜索框
-
-
-
+选项
+最近文件
+不透明
+禁用媒体预览
+过滤器框
 </ButtonBarButtons>
 
 
 <ButtonBarMenu>
-自定义(&amp;C)...
-锁定QTTabBar工具栏(&amp;L)
+定制(&amp;C)...
+锁定菜单(&amp;L)
 路径
 名称
 当前文件夹路径
 当前文件夹名称
-MD5
-个项目
-所有标签的路径
-
-
-
-
-
+文件哈希值
+所有标签路径
+当前文件夹
+（多个项目）
+工作文件夹
+停止图片
+停止影片和音乐
+停止文本
 </ButtonBarMenu>
 
 
@@ -523,7 +523,7 @@ XP
 <OptionDesktopTool>
 
 
-
+图像路径：
 
 
 
@@ -1046,7 +1046,7 @@ Ctrl+Tab 显示标签切换
 复制当前文件夹路径
 复制当前文件夹名
 检查所选文件的 MD5
-设置窗口总在最上
+设置窗口总在最顶
 增加透明度
 减少透明度
 焦点转到文件列表

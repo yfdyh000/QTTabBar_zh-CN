@@ -19,11 +19,11 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20150715</Revision>
+<Revision>20150719</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/7/15 23:00:48</DateModified>
-<EditorVersion>1.0.0.3</EditorVersion>
+<DateModified>2015/7/19 21:29:15</DateModified>
+<EditorVersion>1.0.0.4</EditorVersion>
 
 <!--DATA START-->
 <ButtonBarButtons>
@@ -122,6 +122,11 @@
 复制此按钮并创建子项目
 等待下拉菜单
 </CommandBarDragDrop>
+
+
+<CommandBarDialog>
+您即将添加 {0} 项到命令栏。\r\n确定继续吗？
+</CommandBarDialog>
 
 
 <CommandBarEditor>
@@ -575,6 +580,7 @@ QTTabBar 选项(&amp;O)...
 同步视图。
 同步滚动。
 同步导航。
+浏览文件夹。
 </GlobalTooltip>
 
 
@@ -942,6 +948,7 @@ QTTabBar 命令
 基础文本颜色
 水印
 文件夹种类
+视图边框颜色 (Windows 8.x, 10)
 </OptionFolderView>
 
 
@@ -1528,6 +1535,16 @@ QTTabBar 命令
 移动活动标签到额外视图（左侧）
 移动活动标签到其他视图（从默认视图到优先视图，如果两个视图都活跃，从额外视图到默认视图）
 用聚焦视图同步其他全部视图的位置
+激活聚焦视图中的第一个标签
+激活聚焦视图中的第二个标签
+激活聚焦视图中的第三个标签
+激活聚焦视图中的第四个标签
+激活聚焦视图中的第五个标签
+激活聚焦视图中的第六个标签
+激活聚焦视图中的第七个标签
+激活聚焦视图中的第八个标签
+激活聚焦视图中的第九个标签
+激活聚焦视图中的第十个标签
 </ShortcutKeyName>
 
 

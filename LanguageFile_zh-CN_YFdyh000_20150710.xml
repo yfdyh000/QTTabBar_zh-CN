@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20150612</Revision>
+<Revision>20150710</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/6/12 0:32:00</DateModified>
+<DateModified>2015/7/10 23:53:11</DateModified>
 <EditorVersion>1.0.0.3</EditorVersion>
 
 <!--DATA START-->
@@ -921,12 +921,12 @@ Shift+滚轮 水平滚动
 拖放到文件夹时使用
 拖放到文件夹快捷方式时使用
 基础背景颜色
-在详细信息中选择列背景颜色
-在自定义颜色绘画
+详细信息视图中选中列的背景颜色
+在自定义的颜色上绘画
 子文件夹菜单
 添加预设的颜色...
 可执行文件
-Unicode 控制字符
+Unicode 控制字符的警告
 常规
 自定义视图颜色
 外壳上下文菜单
@@ -936,7 +936,7 @@ QTTabBar 命令
 文件夹动作
 这是必要的用于捕获窗口。
 添加命令，如“在新标签中打开”到文件夹中的快捷菜单
-如果指定路径则跟踪重命名。
+如果按路径指定则跟踪重命名。
 活动
 不活动
 基础文本颜色

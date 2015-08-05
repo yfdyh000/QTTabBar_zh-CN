@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20150719</Revision>
+<Revision>20150805</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/7/19 21:29:15</DateModified>
+<DateModified>2015/8/5 9:51:42</DateModified>
 <EditorVersion>1.0.0.4</EditorVersion>
 
 <!--DATA START-->
@@ -167,6 +167,10 @@
 额外视图（左侧）
 选择要添加的组。
 窗口大小：
+脚本
+如果此命令执行一个脚本文件，QTTabBar 可以等待该脚本执行完成并获取它的返回值。
+等待直至脚本完成
+超时（秒）
 </CommandBarEditor>
 
 
@@ -683,6 +687,8 @@ Windows 8
 斜体
 删除线
 下划线
+标签图标
+标签图标偏移 (X,Y)
 </OptionAppearance>
 
 
@@ -855,6 +861,7 @@ Windows 8
 当一个视图有焦点时，按 Tab 键切换焦点到其他视图
 所有标签已关闭时隐藏
 打开默认标签：
+自动调整额外视图尺寸
 </OptionExtraView>
 
 
@@ -1289,6 +1296,7 @@ Alt键按下时
 将标签栏（底部）/额外视图（底部）放置在命令栏（垂直）/额外视图（左侧）的下面
 当栏只有一个标签时
 给予优先到...
+在左侧的额外视图启用时，同步默认视图与标签栏（顶部）的水平位置。
 </OptionToolbar>
 
 
@@ -1607,6 +1615,7 @@ QTTabBar 命令
 关闭除此群组外的所有标签(&amp;X)
 在新窗口中打开此群组(&amp;N)
 关闭所有标签(&amp;A)
+与默认视图同步水平位置(&amp;H)
 </TabBarMenu>
 
 
@@ -1673,6 +1682,7 @@ QTTabBar 命令
 关闭除此组外的所有标签。
 在新窗口打开与这同组的标签。
 关闭此额外视图中的所有标签。
+在左侧的额外视图启用时，同步默认视图的水平位置。
 </TabBarTooltip>
 
 

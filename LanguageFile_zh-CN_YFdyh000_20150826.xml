@@ -19,10 +19,10 @@
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20150805</Revision>
+<Revision>20150826</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/8/5 9:51:42</DateModified>
+<DateModified>2015/8/26 6:11:17</DateModified>
 <EditorVersion>1.0.0.4</EditorVersion>
 
 <!--DATA START-->
@@ -441,6 +441,15 @@ $$\t&quot;$&quot; 文本
 预设
 批量更改扩展名 - abc -&gt; xyz
 批量更改扩展名 - ALL -&gt; xyz
+替换
+列表
+过滤器：
+名称列表：
+保留原始扩展名
+无效文件名。
+$x\t文件扩展名
+$w\t文件名称无扩展名
+重命名此项
 </DialogFileRenamer>
 
 
@@ -552,6 +561,8 @@ QTTabBar 选项(&amp;O)...
 选中的单个文件夹，或当前文件夹（若含空格则双引号包裹）
 选中的单个文件夹，或当前文件夹（无引号）
 选中的单个项目的名称（无引号）
+标签（事件源）
+标签路径字符串（事件源）
 </GlobalTokens>
 
 
@@ -618,6 +629,7 @@ QTTabBar 选项
 选择颜色...
 选择图标...
 移除图标
+{左, 上, 右, 下} =
 </Option>
 
 
@@ -689,6 +701,7 @@ Windows 8
 下划线
 标签图标
 标签图标偏移 (X,Y)
+Windows 10
 </OptionAppearance>
 
 
@@ -750,6 +763,7 @@ Windows 8
 在额外中包含选中项目
 创建一个新命令...
 活动标签页变化
+编辑当前绑定命令...
 </OptionEvent>
 
 
@@ -956,6 +970,12 @@ QTTabBar 命令
 水印
 文件夹种类
 视图边框颜色 (Windows 8.x, 10)
+增强在视图中的增量搜索
+匹配中间而不只是开头的文件名称
+会话超时（毫秒）
+此选项将允许使用更多快速访问键，或称增量搜索。实现 IFilter 接口的插件可以接受字符和修改选择结果。
+使用实现 IFilter 接口的插件，如果已安装。
+混合自定义颜色
 </OptionFolderView>
 
 
@@ -1553,6 +1573,9 @@ QTTabBar 命令
 激活聚焦视图中的第八个标签
 激活聚焦视图中的第九个标签
 激活聚焦视图中的第十个标签
+选择上一个匹配（增量搜索）
+选择下一个匹配（增量搜索）
+选择所有匹配（增量搜索）
 </ShortcutKeyName>
 
 

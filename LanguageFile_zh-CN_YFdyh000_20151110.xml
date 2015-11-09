@@ -4,7 +4,7 @@
   
 <!--##############################################################
 
-    Localization file for QTTabBar ver 1030 ( 2015-10-24 )
+    Localization file for QTTabBar ver 1031 ( 2015-11-09 )
 
                 * {0} is used as a placeholder
                 * [[|]] is used to represent singular/plural expressions.
@@ -15,14 +15,14 @@
     ##############################################################-->
 
 <!--Indicates the target version of QTTabBar-->
-<Version>1030</Version>
+<Version>1034</Version>
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20151025</Revision>
+<Revision>20151110</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/10/25 9:06:45</DateModified>
+<DateModified>2015/11/10 3:48:16</DateModified>
 <EditorVersion>1.0.0.5</EditorVersion>
 
 <!--DATA START-->
@@ -984,6 +984,15 @@ QTTabBar 命令
 混合自定义颜色
 部分匹配
 快捷方式文件
+使用朴素的虚线框
+与个性化颜色同步
+跟随系统颜色...
+选择系统颜色
+个性化颜色
+桌面颜色
+亮度
+动态文字颜色
+动态背景颜色
 </OptionFolderView>
 
 
@@ -1387,6 +1396,10 @@ Shift 键按下时可被关闭。
 捕获到哪个视图：
 捕捉及排除列表
 不从桌面捕获
+当捕获的窗口在其他虚拟桌面时：
+在当前桌面打开新窗口
+切换到捕获所发生的桌面
+将捕获的窗口带到当前桌面
 </OptionWindow>
 
 

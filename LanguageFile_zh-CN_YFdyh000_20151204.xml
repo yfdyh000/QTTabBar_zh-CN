@@ -4,7 +4,7 @@
   
 <!--##############################################################
 
-    Localization file for QTTabBar ver 1031 ( 2015-11-09 )
+    Localization file for QTTabBar ver 1036 ( 2015-12-03 )
 
                 * {0} is used as a placeholder
                 * [[|]] is used to represent singular/plural expressions.
@@ -15,14 +15,14 @@
     ##############################################################-->
 
 <!--Indicates the target version of QTTabBar-->
-<Version>1034</Version>
+<Version>1036</Version>
 
 <!--META DATA-->
 <Author>YFdyh000</Author>
-<Revision>20151110</Revision>
+<Revision>20151204</Revision>
 <Locale>zh-CN</Locale>
 <Contact>yfdyh000@gmail.com</Contact>
-<DateModified>2015/11/10 3:48:16</DateModified>
+<DateModified>2015/12/4 3:37:19</DateModified>
 <EditorVersion>1.0.0.5</EditorVersion>
 
 <!--DATA START-->
@@ -882,6 +882,7 @@ Windows 10
 打开默认标签：
 自动调整额外视图尺寸
 最后一个标签关闭时打开
+使用搜索框搜索文件夹，而非过滤
 </OptionExtraView>
 
 
@@ -1147,6 +1148,7 @@ QTTabBar - 焦点
 未指定时默认目标视图
 有焦点的视图
 默认视图
+隐藏另一进程的透明窗口，避免影响文件夹视图和鼠标指针（不推荐）
 </OptionMiscs>
 
 
@@ -1209,6 +1211,7 @@ QTTabBar - 焦点
 常规
 扩展、字体和颜色
 窗口
+不在子显示器上对 H.264 文件使用硬件加速（解决卡住问题）
 </OptionPreview>
 
 
